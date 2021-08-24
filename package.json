@@ -1,0 +1,53 @@
+{
+  "name": "takeoff-staff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint --ext .jsx --ext .js src/",
+    "test": "npm run eslint",
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "server": "json-server-auth db.json -r routes.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alina-kala4ik/Takeoff-staff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alina-kala4ik/Takeoff-staff/issues"
+  },
+  "homepage": "https://github.com/alina-kala4ik/Takeoff-staff#readme",
+  "devDependencies": {
+    "@babel/core": "7.15.0",
+    "@babel/preset-env": "7.15.0",
+    "@babel/preset-react": "7.14.5",
+    "babel-loader": "8.2.2",
+    "css-loader": "6.2.0",
+    "eslint": "7.32.0",
+    "eslint-plugin-react": "7.24.0",
+    "json-server": "0.16.3",
+    "json-server-auth": "2.1.0",
+    "mini-css-extract-plugin": "2.2.0",
+    "node-sass": "6.0.1",
+    "redux-mock-store": "1.5.4",
+    "sass-loader": "12.1.0",
+    "webpack": "5.51.1",
+    "webpack-cli": "4.8.0",
+    "webpack-dev-server": "4.0.0"
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "history": "4.10.1",
+    "normalize.css": "8.0.1",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "7.2.4",
+    "react-router-dom": "5.2.0",
+    "redux": "4.1.1",
+    "redux-thunk": "2.3.0"
+  }
+}

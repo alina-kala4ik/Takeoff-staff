@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$t2WUdl08TO6rkdZ6sO7SbOKwi1/MyKYRlPdwaI/r.RQjRgspGLIM.",
+      "id": 1
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Алина",
+      "phone": "+375 29 123-87-95",
+      "isEditing": false
+    },
+    {
+      "name": "Василиса",
+      "phone": "+375 64 876-83-93",
+      "isEditing": false,
+      "id": 2
+    },
+    {
+      "name": "Юрий",
+      "phone": "+375 63 984-93-90",
+      "isEditing": false,
+      "id": 3
+    },
+    {
+      "name": "Инатентий",
+      "phone": "+375 64 763-90-27",
+      "isEditing": false,
+      "id": 4
+    },
+    {
+      "name": "Вася",
+      "phone": "+375 63 872-93-02",
+      "isEditing": false,
+      "id": 5
+    },
+    {
+      "name": "Игнат Петрович",
+      "phone": "+375 67 374-83-27",
+      "isEditing": false,
+      "id": 6
+    },
+    {
+      "name": "Петр",
+      "phone": "+375 44 536-23-44",
+      "isEditing": false,
+      "id": 7
+    }
+  ]
+}
